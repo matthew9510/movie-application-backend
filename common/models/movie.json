@@ -1,0 +1,25 @@
+{
+  "name": "movie",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "movieTitle": {
+      "type": "string",
+      "required": true
+    },
+    "movieId": {
+      "type": "number",
+      "required": true
+    },
+    "director": {
+      "type": "string"
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}
